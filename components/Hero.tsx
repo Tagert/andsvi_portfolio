@@ -32,14 +32,18 @@ export const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-82">
-            !constantly working to <span className="chevron-left">&lt;</span>
-            code
-            <span className="chevron-right">&gt;</span> improve.
+            !constantly working to{" "}
+            <span className="text-purple">
+              <span className="chevron-left text-sm">&lt;</span>
+              code
+              <span className="chevron-right text-sm">&gt;</span>
+            </span>{" "}
+            improve.
           </p>
 
           <TextGenerateEffect
             words="Determined to enhance my skills and expand my knowledge."
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="max-w-[55vw] text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
