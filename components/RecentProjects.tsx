@@ -9,11 +9,12 @@ import { PinContainer } from "./ui/PinContainer";
 
 export const RecentProjects = () => {
   return (
-    <section className="py-20">
+    <section className="py-20" id="projects">
       <h1 className="heading">
         Learning and Growing through{" "}
         <span className="text-purple">recent projects</span>
       </h1>
+
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div

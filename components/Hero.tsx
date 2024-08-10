@@ -47,10 +47,17 @@ export const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Andrejus, a Junior Developer based in Lithuania.
+            Hi!{" "}
+            <span
+              className="underline underline-offset-4 decoration-purple
+"
+            >
+              I&apos;m Andrejus
+            </span>
+            , a Junior Developer based in Lithuania.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
